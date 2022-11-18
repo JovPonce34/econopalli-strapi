@@ -4,7 +4,7 @@ function GuitarList({guitars}) {
 
     return (
         <>
-            <h2 className="heading">Nuestras Punturas</h2>
+            <h2 className="heading">Nuestras Pinturas</h2>
             {guitars.length && (
                 <div className="guitarras-grid">
                 {guitars.map(guitar => (
